@@ -1,0 +1,6 @@
+actions:
+  flake8:
+    include: "*.py"
+    run: flake8 {files}
+plugins:
+  end_of_file_newline: ~

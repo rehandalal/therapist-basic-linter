@@ -1,0 +1,5 @@
+[run]
+include = therapist_basic_linter/*
+
+[report]
+show_missing = True
