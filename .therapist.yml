@@ -3,4 +3,5 @@ actions:
     include: "*.py"
     run: flake8 {files}
 plugins:
+  check_added_large_files: ~
   end_of_file_newline: ~

@@ -31,6 +31,7 @@ setup(
     py_modules=['therapist'],
     entry_points={
         'therapist.plugin': [
+            'check_added_large_files = therapist_basic_linter.plugins:CheckAddedLargeFiles',
             'end_of_file_newline = therapist_basic_linter.plugins:EndOfFileNewline',
         ],
     },
